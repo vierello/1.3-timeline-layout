@@ -1,3 +1,155 @@
+body {
+  font-family: Verdana, Arial, sans-serif;
+}
+
+header {
+  height: 55px;
+}
+
 img {
   max-width: 100%;
+}
+
+.container {
+  max-width: 997px;
+  margin: 0 auto;
+}
+
+.time-date-circles {
+  position: absolute;
+  display: inline-block;
+  float: left;
+  max-width: 187px;
+  left: -152px;
+  top: -10px;
+}
+
+.time-date {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: -10px;
+}
+
+.date {
+  position: relative;
+  float: right;
+  top: 0;
+  left: 0;
+  color: #AFB2B9;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.time {
+  position: relative;
+  top: 0;
+  left: 0;
+  font-size: 40px;
+  color: #80C0E9;
+}
+
+.circles {
+  display: inline-block;
+  position: relative;
+  float: right;
+  top: 0;
+  left: 0;
+  height: 56px;
+  width: 56px;
+  background-color: #80C0E9;
+  border: 8px solid #B8DCF5;
+  border-radius: 28px;
+}
+
+.monitor-image {
+  background-image: url('images/monitor.png');
+  background-position: center center;
+  background-repeat:no-repeat;
+  background-color: #80C0E9;
+}
+
+.phone {
+  position: relative;
+  top: 9px;
+  left: 12px;
+  width: 16px;
+  height: 23px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+.phone-image {
+  position: relative;
+  height: 72px;
+  width: 36px;
+  top: -15px;
+  left: -2px;
+}
+
+.bubble {
+  position: relative;
+  max-width: 783px;
+  display: inline-block;
+  border-radius: 5px;
+  color: white;
+  padding: 40px;
+  margin: 0 0 15px 0;
+  transition: background-color .5s;
+}
+
+.bubble.light-blue:hover {
+  background-color: #5096C6;
+}
+
+.bubble.dark-blue:hover {
+  background-color: #80C0E9;
+}
+
+.light-blue {
+  background-color: #80C0E9;
+}
+
+.dark-blue {
+  background-color: #5096C6;
+}
+
+.triangle {
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-top: 11px solid transparent;
+  border-bottom: 11px solid transparent;
+  border-right: 12px solid #80C0E9;
+  top: 8px;
+  left: -9px;
+  z-index: -1;
+}
+
+.dark-triangle {
+    border-right: 12px solid #5096C6;
+}
+
+.outer-bubble {
+  display: inline-block;
+  position: relative;
+  padding-left: 51px;
+  border-left: 9px solid #80C0E9;
+  float: right;
+}
+
+.heading {
+  font-size: 28px;
+  font-weight: bold;
+  border-bottom: 1px solid white;
+  padding: 0 0 18px 0;
+  margin-bottom: -8px;
+}
+
+.meal {
+  line-height: 25px;
+}
+
+.recipe {
+  padding: 32px 0;
 }
